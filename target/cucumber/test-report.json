@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T16:56:44.944Z",
+        "line": 3,
+        "name": "I want to search something on youtube",
+        "description": "",
+        "id": "using-the-youtube-searchbar;i-want-to-search-something-on-youtube",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "that I\u0027m on the youtube homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I write something in the searchbar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on the search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the result should be what I\u0027m looking for",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "using the youtube searchbar",
+    "description": "",
+    "id": "using-the-youtube-searchbar",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/search.feature",
+    "tags": []
+  }
+]

@@ -62,7 +62,7 @@ public class Main {
         }
 
         //remove the 1st dialog window
-        WebElement elem1 = driver.findElement(By.cssSelector("paper-button[aria-label ='No grazie']"));
+        WebElement elem1 = driver.findElement(By.xpath("/html/body/ytd-app/ytd-popup-container/paper-dialog/yt-upsell-dialog-renderer/div/div[3]/div[1]/yt-button-renderer/a/paper-button/yt-formatted-string"));
         System.out.println(elem1.getTagName());
         elem1.click();
 
@@ -84,7 +84,8 @@ public class Main {
         driver.switchTo().defaultContent();
 
         //look for the searchbar element
-        WebElement searchbar = driver.findElement(By.cssSelector("input[placeholder = 'Cerca']"));
+        //WebElement searchbar = driver.findElement(By.cssSelector("input[placeholder = 'Cerca']"));
+        WebElement searchbar = driver.findElement(By.id("search"));
         System.out.println(searchbar.getTagName());
 
         //fill the searchbar
