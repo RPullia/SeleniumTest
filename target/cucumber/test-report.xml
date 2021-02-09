@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.238">
-<testcase classname="using the youtube searchbar" name="I want to search something on youtube" time="0.092">
-<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given that I'm on the youtube homepage......................................undefined
-When I write something in the searchbar.....................................skipped
-And I click on the search button............................................skipped
-Then the result should be what I'm looking for..............................skipped
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.883">
+<testcase classname="using the youtube searchbar" name="I want to search something on youtube" time="12.753">
+<system-out><![CDATA[Given that I'm on the youtube homepage......................................passed
+When I write something in the searchbar.....................................passed
+And I click on the search button............................................passed
+Then the result should be what I'm looking for..............................passed
+]]></system-out>
 </testcase>
 </testsuite>

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-08T16:56:44.944Z",
+        "start_timestamp": "2021-02-09T10:00:58.959Z",
         "line": 3,
         "name": "I want to search something on youtube",
         "description": "",
@@ -13,39 +13,50 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 5471000000,
+              "status": "passed"
             },
             "line": 4,
             "name": "that I\u0027m on the youtube homepage",
-            "match": {},
+            "match": {
+              "location": "selenium_basics.StepDefinitions.that_i_m_on_the_youtube_homepage()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6071000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I write something in the searchbar",
-            "match": {},
+            "match": {
+              "location": "selenium_basics.StepDefinitions.i_write_something_in_the_searchbar()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1112000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click on the search button",
-            "match": {},
+            "match": {
+              "location": "selenium_basics.StepDefinitions.i_click_on_the_search_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 36000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "the result should be what I\u0027m looking for",
-            "match": {},
+            "match": {
+              "location": "selenium_basics.StepDefinitions.the_result_should_be_what_i_m_looking_for()"
+            },
             "keyword": "Then "
           }
         ]
