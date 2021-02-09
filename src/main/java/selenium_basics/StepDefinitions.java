@@ -112,7 +112,7 @@ public class StepDefinitions {
         String expectedResult = "container";
         String actualResult = driver.findElement(By.xpath("/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]")).getAttribute("id");
 
-        assert actualResult.contentEquals(expectedResult) : "Error";
+        assert actualResult.contentEquals(expectedResult) : "Error during searching";
 
     }
 
